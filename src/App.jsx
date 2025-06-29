@@ -75,10 +75,10 @@ function App() {
       <div className="relative z-10 flex flex-col min-h-screen">
         <main className="flex-1 flex flex-col items-center justify-center px-4 sm:px-8 text-center pt-16 sm:pt-0">
           <div className="mb-12 sm:mb-16">
-            <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[15rem] font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-600 bg-clip-text text-transparent mb-4 tracking-tight leading-none animate-pulse">
+            <h1 className="text-7xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[15rem] font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-600 bg-clip-text text-transparent mb-4 tracking-tight leading-none animate-pulse">
               COMING
             </h1>
-            <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-300 bg-clip-text text-transparent tracking-wider">
+            <h2 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-300 bg-clip-text text-transparent tracking-wider">
               SOON
             </h2>
           </div>
