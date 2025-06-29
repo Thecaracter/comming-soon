@@ -21,28 +21,27 @@ function App() {
       name: 'Email',
       url: 'https://mail.google.com/mail/?view=cm&to=support@donet.co&su=Hello%20from%20your%20website',
       bgGradient: 'from-red-500 to-red-600',
-      description: 'support@donet.co'
+
     },
     {
       icon: 'fab fa-instagram',
       name: 'Instagram',
       url: 'https://instagram.com/yourusername',
       bgGradient: 'from-pink-500 to-orange-500',
-      description: '@yourusername'
+
     },
     {
       icon: 'fab fa-x-twitter',
       name: 'X',
       url: 'https://x.com/yourusername',
       bgGradient: 'from-gray-800 to-black',
-      description: '@yourusername'
+
     },
     {
       icon: 'fab fa-discord',
       name: 'Discord',
       url: 'https://discord.gg/yourserver',
       bgGradient: 'from-indigo-500 to-purple-600',
-      description: 'Join Server'
     }
   ];
 
