@@ -118,9 +118,9 @@ function App() {
                     {social.name}
                   </span>
 
-                  <span className="text-xs sm:text-sm text-yellow-400 font-medium text-center">
+                  {/* <span className="text-xs sm:text-sm text-yellow-400 font-medium text-center">
                     {social.description}
-                  </span>
+                  </span> */}
 
                   <div className="absolute inset-0 rounded-xl sm:rounded-2xl border border-yellow-400/0 group-hover:border-yellow-400/20 transition-all duration-300"></div>
                 </a>
