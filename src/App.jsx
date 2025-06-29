@@ -26,21 +26,21 @@ function App() {
     {
       icon: 'fab fa-instagram',
       name: 'Instagram',
-      url: 'https://instagram.com/yourusername',
+      url: 'https://www.instagram.com/donet_co',
       bgGradient: 'from-pink-500 to-orange-500',
 
     },
     {
       icon: 'fab fa-x-twitter',
       name: 'X',
-      url: 'https://x.com/yourusername',
+      url: 'https://x.com/donet_co',
       bgGradient: 'from-gray-800 to-black',
 
     },
     {
       icon: 'fab fa-discord',
       name: 'Discord',
-      url: 'https://discord.gg/yourserver',
+      url: 'https://discord.gg/Rw4jbwAtjD',
       bgGradient: 'from-indigo-500 to-purple-600',
     }
   ];
