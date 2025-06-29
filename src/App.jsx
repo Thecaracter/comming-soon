@@ -74,60 +74,60 @@ function App() {
       />
 
       <div className="relative z-10 flex flex-col min-h-screen">
-        <main className="flex-1 flex flex-col items-center justify-center px-8 text-center">
-          <div className="mb-16">
-            <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[12rem] xl:text-[15rem] font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-600 bg-clip-text text-transparent mb-4 tracking-tight leading-none animate-pulse">
+        <main className="flex-1 flex flex-col items-center justify-center px-4 sm:px-8 text-center pt-16 sm:pt-0">
+          <div className="mb-12 sm:mb-16">
+            <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[15rem] font-extrabold bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-600 bg-clip-text text-transparent mb-4 tracking-tight leading-none animate-pulse">
               COMING
             </h1>
-            <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-300 bg-clip-text text-transparent tracking-wider">
+            <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-bold bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-300 bg-clip-text text-transparent tracking-wider">
               SOON
             </h2>
           </div>
 
-          <div className="max-w-3xl mx-auto mb-20">
-            <p className="text-gray-300 text-lg sm:text-xl md:text-2xl font-light leading-relaxed">
+          <div className="max-w-3xl mx-auto mb-16 sm:mb-20">
+            <p className="text-gray-300 text-base sm:text-lg md:text-2xl font-light leading-relaxed px-4">
               Sesuatu yang luar biasa sedang dalam persiapan.
               <span className="text-yellow-400 font-medium block mt-2"> Bersiaplah untuk pengalaman yang tak terlupakan.</span>
             </p>
           </div>
         </main>
 
-        <footer className="p-8 lg:p-12 bg-gradient-to-t from-black/30 to-transparent">
+        <footer className="p-6 sm:p-8 lg:p-12 bg-gradient-to-t from-black/30 to-transparent">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-12">
-              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent mb-4">
+            <div className="text-center mb-8 sm:mb-12">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent mb-4">
                 Follow Our Journey
               </h3>
               <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-yellow-600 mx-auto rounded-full"></div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 mb-12 max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-12 max-w-4xl mx-auto">
               {socialLinks.map((social, index) => (
                 <a
                   key={index}
                   href={social.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative flex flex-col items-center p-8 bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-yellow-500/10"
+                  className="group relative flex flex-col items-center p-4 sm:p-6 lg:p-8 bg-gray-800/40 backdrop-blur-sm rounded-xl sm:rounded-2xl border border-gray-700/50 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-yellow-500/10"
                 >
-                  <div className={`w-20 h-20 rounded-full bg-gradient-to-r ${social.bgGradient} flex items-center justify-center mb-4 transition-all duration-300 group-hover:scale-110`}>
-                    <i className={`${social.icon} text-white text-3xl transition-all duration-300`}></i>
+                  <div className={`w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-gradient-to-r ${social.bgGradient} flex items-center justify-center mb-3 sm:mb-4 transition-all duration-300 group-hover:scale-110`}>
+                    <i className={`${social.icon} text-white text-lg sm:text-3xl transition-all duration-300`}></i>
                   </div>
 
-                  <span className="text-base font-semibold text-gray-300 group-hover:text-white transition-colors mb-2">
+                  <span className="text-sm sm:text-base font-semibold text-gray-300 group-hover:text-white transition-colors mb-1 sm:mb-2">
                     {social.name}
                   </span>
 
-                  <span className="text-sm text-yellow-400 font-medium text-center">
+                  <span className="text-xs sm:text-sm text-yellow-400 font-medium text-center">
                     {social.description}
                   </span>
 
-                  <div className="absolute inset-0 rounded-2xl border border-yellow-400/0 group-hover:border-yellow-400/20 transition-all duration-300"></div>
+                  <div className="absolute inset-0 rounded-xl sm:rounded-2xl border border-yellow-400/0 group-hover:border-yellow-400/20 transition-all duration-300"></div>
                 </a>
               ))}
             </div>
 
-            <div className="text-center pt-8 border-t border-gray-800/50">
+            <div className="text-center pt-6 sm:pt-8 border-t border-gray-800/50">
               <p className="text-gray-500 text-sm mb-2">
                 Stay connected for the latest updates
               </p>
